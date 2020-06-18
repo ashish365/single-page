@@ -46,9 +46,9 @@ const User = (props) => {
           <Button onClick={handleLogout}>Logout</Button>
         </Wrapper>
 
-        <Image src="/image/ronaldo.jpeg" />
-        <Image src="/image/258872.jpg" />
-        <Image src="/image/lionel-messi.jpg" /> 
+        <Image src="/ronaldo.jpeg" />
+        <Image src="/258872.jpg" />
+        <Image src="/lionel-messi.jpg" /> 
 
       </Content>
 

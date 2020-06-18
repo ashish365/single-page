@@ -43,7 +43,7 @@ const Admin = (props) => {
           <Button onClick={handleLogout}>Logout</Button>
         </Wrapper>
 
-        <Image src="/image/IIT-guwahati2.jpg" />
+        <Image src="/IIT-guwahati2.jpg" />
       </Content>
 
 
