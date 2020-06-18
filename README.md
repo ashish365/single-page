@@ -17,9 +17,8 @@ It's a Single page web application having login/logout functionality built using
  - [**Note**: The folder tree does not include sub-directories for common/generated folders. For example - `node_modules`.] 
  
 
-
-| single-page | 
  ```
+single-page
 --- | ---public 
 --- | ---node_modules 
 --- | --- src
