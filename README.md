@@ -15,16 +15,27 @@ It's a Single page web application having login/logout functionality built using
 ## Project Folder Structure
 
  - [**Note**: The folder tree does not include sub-directories for common/generated folders. For example - `node_modules`.] 
+ 
 
-single-page
-
- - node_modules
- - public
- - src
-Components
----------------->Login.js
----------------->Logout.js
----------------->User.js
+> --single-page
+>  |------>node_modules 
+>  |------>public 
+>  |------>src
+> |------|------->Components 
+> |---------------|------->Login.js
+> |---------------|------->Logout.js 
+> |---------------|------->User.js
+> |------|------->App.js 
+> |------|------->App.test.js
+> |------|------->Config.js 
+> |------|------->index.js
+> |------|------->index.css 
+> |------|------->serviceWorker.js
+> |------|------->setupTest.js 
+> |------>.gitignore 
+> |------>package.Json
+> |------>package-lock.Json 
+> |------>README.md
 
 ## WORK-FLOW
 
