@@ -19,38 +19,27 @@ It's a Single page web application having login/logout functionality built using
 
 
 | single-page | 
-```
---- | ---node_modules  
-```
-```
---- | ---public 
-```
  ```
+--- | ---public 
+--- | ---node_modules 
 --- | --- src
           |---Components
               |----Login.js
               |----Logout.js
               |----User.js
---- | --- App.js
---- | --- Config.js
---- | --- App.test.js
---- | --- index.js
---- | --- index.css
---- | --- serviceWorker.js
---- | --- serviceTests.js                
-```
-```
---- | ---.gitignore 
-```
-```
+--------- | --- App.js
+--------- | --- Config.js
+--------- | --- App.test.js
+--------- | --- index.js
+--------- | --- index.css
+--------- | --- serviceWorker.js
+--------- | --- serviceTests.js
+--- | ---.gitignore
 --- | ---package.Json
-```
-```
 --- | ---package-lock.Json
-```
-```
 --- | ---README.md
 ```
+
 ## WORK-FLOW
 
  1. Creating 3 different components that are Login.js, User.js and Admin.js
