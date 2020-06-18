@@ -47,7 +47,7 @@ It's a Single page web application having login/logout functionality built using
 ## Username Validation
 
 The person who is logging in has to see the username and password from the `Config.js` file where a normal user and admin is declared in an array with there usernames and passwords and that would only work if someone wants to log In as it's hardcoded for right now.
-## Connecting your DataBase
+## For Connecting your DataBase
     By database we mean SQL/NoSQL database, then roughly what we need:
 
  1. Install chosen database server
