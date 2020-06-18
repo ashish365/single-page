@@ -17,6 +17,7 @@ It's a Single page web application having login/logout functionality built using
  - [**Note**: The folder tree does not include sub-directories for common/generated folders. For example - `node_modules`.] 
  
 
+
 | single-page | 
 ```
 --- | ---node_modules  
@@ -26,6 +27,17 @@ It's a Single page web application having login/logout functionality built using
 ```
  ```
 --- | --- src
+          |---Components
+              |----Login.js
+              |----Logout.js
+              |----User.js
+--- | --- App.js
+--- | --- Config.js
+--- | --- App.test.js
+--- | --- index.js
+--- | --- index.css
+--- | --- serviceWorker.js
+--- | --- serviceTests.js                
 ```
 ```
 --- | ---.gitignore 
