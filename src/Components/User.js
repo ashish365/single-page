@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import { Link, Redirect } from 'react-router-dom'
+import cr7 from '../ronaldo.jpeg';
+import rooney from '../258872.jpg';
+import messi from '../lionel-messi.jpg';
 import styled from "styled-components";
 
 
@@ -46,9 +49,9 @@ const User = (props) => {
           <Button onClick={handleLogout}>Logout</Button>
         </Wrapper>
 
-        <Image src="/ronaldo.jpeg" />
-        <Image src="/258872.jpg" />
-        <Image src="/lionel-messi.jpg" /> 
+        <Image src={cr7} alt="ronaldo" />
+        <Image src={rooney} alt="rooney" />
+        <Image src={messi} alt="lionel messi" /> 
 
       </Content>
 

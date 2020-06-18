@@ -1,5 +1,5 @@
 import React from 'react';
-
+import iitg from '../iitg1.jpg';
 import styled from "styled-components";
 
 
@@ -43,7 +43,7 @@ const Admin = (props) => {
           <Button onClick={handleLogout}>Logout</Button>
         </Wrapper>
 
-        <Image src="/IIT-guwahati2.jpg" />
+        <Image src={iitg} alt="iitg" />
       </Content>
 
 
