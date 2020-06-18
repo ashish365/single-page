@@ -16,24 +16,25 @@ It's a Single page web application having login/logout functionality built using
 
  - [**Note**: The folder tree does not include sub-directories for common/generated folders. For example - `node_modules`.] 
 
-─── single-page
-    ├── node_modules
-    ├── public
-    │   └──image
-    ├── src
-    │   ├── App.js
-    │   ├── App.test.js
-    │   ├── Config.js
-    │   ├── index.css
-    │   ├── index.js
-    │   ├── serviceWorker.js
-    │   ├── setupTests.js
-    │   ├── Components├── Login.js ├── Admin.js ├── User.js
-    ├── .gitignore
-    ├── package-lock.json
-    ├── package.json
-    ├── README.md
-    
+--single-page
+|------>node_modules
+|------>public
+|------>src
+|------|------->Components
+|---------------|------->Login.js
+|---------------|------->Logout.js
+|---------------|------->User.js
+|------|------->App.js
+|------|------->App.test.js
+|------|------->Config.js
+|------|------->index.js
+|------|------->index.css
+|------|------->serviceWorker.js
+|------|------->setupTest.js
+|------>.gitignore
+|------>package.Json
+|------>package-lock.Json
+|------>README.md    
 
 ## WORK-FLOW
 
@@ -47,7 +48,7 @@ It's a Single page web application having login/logout functionality built using
 ## Username Validation
 
 The person who is logging in has to see the username and password from the `Config.js` file where a normal user and admin is declared in an array with there usernames and passwords and that would only work if someone wants to log In as it's hardcoded for right now.
-## For Connecting your DataBase
+## Connecting your DataBase
     By database we mean SQL/NoSQL database, then roughly what we need:
 
  1. Install chosen database server
